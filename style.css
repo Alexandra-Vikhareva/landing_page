@@ -43,7 +43,7 @@ ul{
     margin: 10rem 0;
 }
 
-h1{
+.intro h1{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -74,7 +74,7 @@ button{
 }
 
 .list img{
-    border-radius: 12px;
+    border-radius: 10px;
     border: 2px solid #3882F6;
 }
 
@@ -95,4 +95,31 @@ button{
     font-style: normal;
     text-align: right;
     font-weight: 700;
+}
+
+.back{
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window{
+    display: flex;
+    padding: 1rem 5rem;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    margin: 5rem;
+    color: #f9faf8;
+}
+
+.window button{
+    border: 2px solid #f9faf8;
+}
+
+.footer{
+    color:#e5e7eb;
+    text-align: center;
+    margin: 10px
 }
